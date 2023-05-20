@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="stylesheet" href="css/main.min.css" />
+    <title>Some one wine</title>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="container">
+          <nav class="nav">
+            <ul class="menu">
+              <li class="menu__list">
+                <a class="menu__link animation" href="index.html">Home</a>
+              </li>
+
+              <li class="menu__list">
+                <a class="menu__link animation" href="blog-page.html">Events</a>
+              </li>
+              <li class="menu__list">
+                <a class="menu__link animation" href="news-page.html">News</a>
+              </li>
+            </ul>
+            <ul class="info">
+              <li class="info__item">
+                <span class="sr-only">our telegram chat</span>
+                <a class="info__link animation" href="https://t.me/wineblog">
+                  <svg
+                    width="33"
+                    height="32"
+                    viewBox="0 0 33 32"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <mask
+                      id="mask0_1_9"
+                      style="mask-type: luminance"
+                      maskUnits="userSpaceOnUse"
+                      x="0"
+                      y="0"
+                      width="33"
+                      height="32"
+                    >
+                      <path
+                        d="M0.860001 0H32.638V32H0.860001V0Z"
+                        fill="white"
+                      />
+                    </mask>
+                    <g mask="url(#mask0_1_9)">
+                      <path
+                        d="M13.328 20.241L12.802 27.687C13.555 27.687 13.88 27.361 14.271 26.971L17.797 23.578L25.103 28.965C26.443 29.718 27.387 29.322 27.749 27.725L32.545 5.095L32.546 5.093C32.971 3.099 31.83 2.319 30.524 2.808L2.334 13.676C0.41 14.428 0.439 15.508 2.007 15.998L9.214 18.255L25.954 7.707C26.742 7.18099 27.459 7.472 26.87 7.997L13.328 20.241Z"
+                        fill="white"
+                      />
+                    </g>
+                  </svg>
+                </a>
+              </li>
+
+              <li class="info__item">
+                <button class="search-bar__submit info__link animation">
+                  <svg
+                    width="21"
+                    height="20"
+                    viewBox="0 0 21 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M9.02 16.472C4.477 16.472 0.779999 12.777 0.779999 8.236C0.779999 3.695 4.476 0 9.02 0C13.565 0 17.262 3.695 17.262 8.236C17.262 12.777 13.565 16.472 9.02 16.472ZM9.02 1.562C5.338 1.562 2.341 4.556 2.341 8.236C2.341 11.916 5.338 14.911 9.021 14.911C12.704 14.911 15.701 11.916 15.701 8.236C15.701 4.556 12.704 1.561 9.021 1.561L9.02 1.562ZM20.55 19.772C20.6227 19.6995 20.6804 19.6134 20.7198 19.5186C20.7591 19.4238 20.7794 19.3222 20.7794 19.2195C20.7794 19.1168 20.7591 19.0152 20.7198 18.9204C20.6804 18.8256 20.6227 18.7395 20.55 18.667L17.054 15.174C16.9053 15.0395 16.7105 14.9672 16.51 14.9722C16.3095 14.9772 16.1186 15.059 15.9767 15.2008C15.8349 15.3425 15.7529 15.5334 15.7477 15.7338C15.7425 15.9343 15.8146 16.1291 15.949 16.278L19.445 19.771C19.5174 19.8438 19.6035 19.9016 19.6983 19.9411C19.7931 19.9805 19.8948 20.0008 19.9975 20.0008C20.1002 20.0008 20.2019 19.9805 20.2967 19.9411C20.3915 19.9016 20.4776 19.8448 20.55 19.772Z"
+                      fill="#FFFFFC"
+                    />
+                  </svg>
+                </button>
+              </li>
+
+              <li class="info__item">
+                <button class="form__btn-open animation">
+                  <svg
+                    width="25"
+                    height="32"
+                    viewBox="0 0 25 32"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M22.678 19.943C21.6176 18.3924 20.2213 17.1007 18.593 16.164C19.5661 15.2967 20.3448 14.2334 20.8779 13.0439C21.4109 11.8544 21.6863 10.5655 21.686 9.262C21.686 4.155 17.531 0 12.424 0C7.317 0 3.162 4.155 3.162 9.262C3.16154 10.5654 3.43679 11.8542 3.96968 13.0438C4.50257 14.2333 5.28105 15.2966 6.254 16.164C4.62568 17.1007 3.22941 18.3924 2.169 19.943C0.754176 22.0004 -0.00222339 24.4391 4.90916e-06 26.936V32H24.848V26.936C24.848 24.431 24.098 22.013 22.678 19.943ZM5.101 9.263C5.101 5.224 8.386 1.939 12.424 1.939C16.462 1.939 19.747 5.224 19.747 9.262C19.747 13.3 16.462 16.585 12.424 16.585C8.386 16.585 5.1 13.3 5.1 9.262L5.101 9.263ZM1.939 30.06V26.935C1.939 22.826 4.319 19.141 8.04 17.419C9.38684 18.1457 10.8936 18.5252 12.424 18.523C14.009 18.523 15.502 18.123 16.807 17.419C20.528 19.141 22.908 22.826 22.908 26.935V30.06H1.94H1.939Z"
+                      fill="#FFFFFC"
+                    />
+                  </svg>
+                </button>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <main class="main">
+        <section class="top">
+          <div class="container">
+            <div class="top__form">
+              <div class="form">
+                <!--Login-->
+                <span class="form-close" id="form-close">
+                  <svg>
+                    <use xlink:href="images/sprite.svg#close"></use>
+                  </svg>
+                </span>
+                <div class="form__login">
+                  <form action="#" method="post">
+                    <h2 class="form__title">Login</h2>
+                    <div class="form__input-box">
+                      <label for="email-login">
+                        <input
+                          class="form__input"
+                          type="email"
+                          id="email-login"
+                          placeholder="Email"
+                          required
+                        />
+                      </label>
+                      <label class="form__input-label" for="password-login">
+                        <input
+                          class="form__input"
+                          type="password"
+                          name="password"
+                          id="password-login"
+                          placeholder="Password"
+                          required
+                        />
+                        <img
+                          class="form__pass-icon"
+                          id="pass-icon"
+                          src="images/eye-closed.svg"
+                          alt="eye-closed"
+                          width="27"
+                        />
+                      </label>
+                    </div>
+                    <div class="form__option">
+                      <label for="check">
+                        <input
+                          class="form__checkbox"
+                          type="checkbox"
+                          name="checkbox"
+                          id="check"
+                        />
+                        remember me
+                      </label>
+                      <a class="form__forget-pw" href="#">Forget password?</a>
+                    </div>
+                    <button class="form__btn">Login Now</button>
+                    <div class="form__signup-box" id="singnup">
+                      <h2 class="form__subtitle">Don't have an account?</h2>
+                      <a
+                        href="#"
+                        class="form__link form__link--singnup"
+                        id="singnup"
+                        >Signup</a
+                      >
+                    </div>
+                  </form>
+                </div>
+                <!--Signup-->
+                <div class="form__signup">
+                  <form action="#" method="post">
+                    <h2 class="form__title">Signup</h2>
+                    <div class="form__input-box">
+                      <label for="email-signup">
+                        <input
+                          class="form__input"
+                          type="email"
+                          id="email-signup"
+                          placeholder="Email"
+                          required
+                        />
+                      </label>
+                      <label for="password-create">
+                        <input
+                          class="form__input"
+                          type="password"
+                          name="password"
+                          id="password-create"
+                          placeholder="Create password"
+                          required
+                        />
+                      </label>
+                      <label for="password-confirm">
+                        <input
+                          class="form__input"
+                          type="password"
+                          name="password"
+                          id="password-confirm"
+                          placeholder="Confirm password"
+                          required
+                        />
+                      </label>
+                    </div>
+                    <button class="form__btn">Signup Now</button>
+                    <div class="form__login-box">
+                      <h2 class="form__subtitle">Already have an account?</h2>
+                      <a
+                        class="form__link form__link--login"
+                        href="#"
+                        id="login"
+                        >Login</a
+                      >
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+
+            <div class="top__inner">
+              <h1 class="top__title">
+                Wine blog Some one wine featuring wine reviews
+              </h1>
+              <p class="top__text">
+                Learn for free online, explore our books, maps, or take an
+                online course
+              </p>
+            </div>
+          </div>
+        </section>
+        <section class="section">
+          <div class="container">
+            <h2 class="section-title">The best wine of the week</h2>
+            <div class="product">
+              <img
+                class="product__img"
+                src="images/wine/wine1.jpg"
+                alt="wine"
+                width="600"
+                height="500"
+              />
+              <div class="product__inner">
+                <h3 class="product__subtitle">Casillero del Diablo</h3>
+                <p class="product__text">
+                  Diablo are rich, vibrant, dark ruby red wines from the Maule
+                  Valley, aged in oak for 6 months, 6 weeks and 6 days.
+                </p>
+                <ul class="product__list">
+                  <li class="product__item">
+                    <span>Strength</span> <span>11,5%</span>
+                  </li>
+                  <li class="product__item">
+                    <span>Capacity</span> <span>0,75 л.</span>
+                  </li>
+                  <li class="product__item">
+                    <span>Manufacturer</span>
+                    <span>Spain Codorniu Raimat Cava (CONIUSA)</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="past__inner">
+              <h2 class="past__title">The best wine of last week</h2>
+              <ul class="past__list">
+                <li class="past__item">
+                  <article class="past">
+                    <img
+                      class="past__img"
+                      src="images/wine/wine2.jpg"
+                      alt=""
+                      height="300"
+                    />
+                    <h4 class="past__subtitle">Campo Viejo</h4>
+                    <ul class="reviews">
+                      <li class="reviews__item">
+                        <svg>
+                          <use xlink:href="images/sprite.svg#glass"></use>
+                        </svg>
+                      </li>
+                      <li class="reviews__item">
+                        <svg>
+                          <use xlink:href="images/sprite.svg#glass"></use>
+                        </svg>
+                      </li>
+                      <li class="reviews__item">
+                        <svg>
+                          <use xlink:href="images/sprite.svg#glass"></use>
+                        </svg>
+                      </li>
+                      <li class="reviews__item">
+                        <svg>
+                          <use xlink:href="images/sprite.svg#glass"></use>
+                        </svg>
+                      </li>
+                      <li class="reviews__item">
+                        <svg style="fill: #78000076">
+                          <use xlink:href="images/sprite.svg#glass"></use>
+                        </svg>
+                      </li>
+                    </ul>
+                    <p class="past__text">
+                      Wine: Red, dry Region: Spain, Rioja Producer: Pernod
+                      Ricard Brand: Campo Viejo Fortress. 13.5%.
+                    </p>
+                  </article>
+                </li>
+                <li class="past__item">
+                  <article class="past">
+                    <img
+                      class="past__img"
+                      src="images/wine/wine3.jpg"
+                      alt=""
+                      height="300"
+                    />
+                    <h4 class="past__subtitle">Pinot Grigio</h4>
+                    <ul class="reviews">
+                      <li class="reviews__item">
+                        <svg>
+                          <use xlink:href="images/sprite.svg#glass"></use>
+                        </svg>
+                      </li>
+                      <li class="reviews__item">
+                        <svg>
+                          <use xlink:href="images/sprite.svg#glass"></use>
+                        </svg>
+                      </li>
+                      <li class="reviews__item">
+                        <svg>
+                          <use xlink:href="images/sprite.svg#glass"></use>
+                        </svg>
+                      </li>
+                      <li class="reviews__item">
+                        <svg>
+                          <use xlink:href="images/sprite.svg#glass"></use>
+                        </svg>
+                      </li>
+                      <li class="reviews__item">
+                        <svg style="fill: #78000076">
+                          <use xlink:href="images/sprite.svg#glass"></use>
+                        </svg>
+                      </li>
+                    </ul>
+                    <p class="past__text">
+                      Wine Giannitessari, Pinot Grigio delle Venezie DOC, 2021
+                      Giannitessari, Pinot Grigio, 2021, 750 ml.
+                    </p>
+                  </article>
+                </li>
+                <li class="past__item">
+                  <article class="past">
+                    <img
+                      class="past__img"
+                      src="images/wine/wine4.jpg"
+                      alt=""
+                      height="300"
+                    />
+                    <h4 class="past__subtitle">Cotes Du Rhone</h4>
+                    <ul class="reviews">
+                      <li class="reviews__item">
+                        <svg>
+                          <use xlink:href="images/sprite.svg#glass"></use>
+                        </svg>
+                      </li>
+                      <li class="reviews__item">
+                        <svg>
+                          <use xlink:href="images/sprite.svg#glass"></use>
+                        </svg>
+                      </li>
+                      <li class="reviews__item">
+                        <svg>
+                          <use xlink:href="images/sprite.svg#glass"></use>
+                        </svg>
+                      </li>
+                      <li class="reviews__item">
+                        <svg style="fill: #78000076">
+                          <use xlink:href="images/sprite.svg#glass"></use>
+                        </svg>
+                      </li>
+                      <li class="reviews__item">
+                        <svg style="fill: #78000076">
+                          <use xlink:href="images/sprite.svg#glass"></use>
+                        </svg>
+                      </li>
+                    </ul>
+                    <p class="past__text">
+                      Bernard Magrez Le Prelat Rouge Cotes du Rhone Village 2016
+                      0,75 л red, dry, 14%·
+                    </p>
+                  </article>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section
+          class="section quote"
+          style="background-image: url('images/bg-images/wine-bg.jpg')"
+        >
+          <div class="container">
+            <h3 class="quote__title">
+              “Wine cheers the sad, revives the old, inspires the young, and
+              makes weariness forget his toil.”
+            </h3>
+            <span class="quote__text">- Lord Byron</span>
+          </div>
+        </section>
+        <section class="section" id="story">
+          <div class="container">
+            <h2 class="section-title">Wine Story</h2>
+            <div class="tabs">
+              <div class="tabs__button">
+                <button
+                  class="tabs__button-item tabs__button-item--active"
+                  data-button="content-1"
+                >
+                  Color
+                </button>
+                <button class="tabs__button-item" data-button="content-2">
+                  Country
+                </button>
+                <button class="tabs__button-item" data-button="content-3">
+                  Category by sugar
+                </button>
+                <button class="tabs__button-item" data-button="content-4">
+                  Price
+                </button>
+                <button class="tabs__button-item" data-button="content-5">
+                  Volume
+                </button>
+                <button class="tabs__button-item" data-button="content-6">
+                  Producers
+                </button>
+              </div>
+              <div class="tabs__content">
+                <div
+                  class="tabs__content-item tabs__content-item--active"
+                  id="content-1"
+                >
+                  <img
+                    class="tabs__content-img"
+                    src="images/tabs-img/color.jpg"
+                    alt="What Different Wine Colors Mean?"
+                  />
+                  <div class="tabs__content-box">
+                    <h3 class="tabs__content-title">
+                      What Different Wine Colors Mean?
+                    </h3>
+                    <div class="tabs__content-text">
+                      <p>
+                        Ever wonder if a Chardonnay you’re about to buy is going
+                        to be rich or lean? Believe it or not, the answer is
+                        right in front of your eyes. The clues lie in a wine’s
+                        color. Many
+                        <span>“buttery”</span> Chardonnays are more extracted,
+                        which means they’re usually a rich gold color.
+                      </p>
+                      <p>
+                        A wine’s color can also help you if you’re interested in
+                        collecting wine. You can use wine color cues to
+                        determine its potential to cellar. For instance, a syrah
+                        that tinges blue on the rim has lower acidity. Acidity
+                        is one of the primary traits of
+                        <span>wines that age well</span> .
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="tabs__content-item" id="content-2">
+                  <img
+                    class="tabs__content-img"
+                    src="images/tabs-img/country.jpg"
+                    alt="What country has the best wine in the world?"
+                  />
+                  <div class="tabs__content-box">
+                    <h3 class="tabs__content-title">
+                      What country has the best wine in the world?
+                    </h3>
+                    <div class="tabs__content-text">
+                      <p>
+                        For many wine lovers, <span>France</span> is the world's
+                        greatest wine country. However, it's now in second place
+                        in two key categories. First, it has the world's
+                        second-largest total vineyard area, second to
+                        <span>Spain</span>. Second, it is also the
+                        second-largest wine producer: <span>Italy</span> takes
+                        the lead in the volume of wine produced.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="tabs__content-item" id="content-3">
+                  <img
+                    class="tabs__content-img"
+                    src="images/tabs-img/category.jpg"
+                    alt=" What types of sugars are in wine?"
+                  />
+                  <div class="tabs__content-box">
+                    <h3 class="tabs__content-title">
+                      What types of sugars are in wine?
+                    </h3>
+                    <div class="tabs__content-text">
+                      <p>
+                        The sugar in wine is called <span>residual sugar</span>,
+                        or RS, and it doesn't from corn syrup or granulated
+                        sugar, but from the natural sugars found in wine grapes
+                        that include fructose and glucose. During winemaking,
+                        yeast typically converts all the sugar into alcohol
+                        making a dry wine.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="tabs__content-item" id="content-4">
+                  <img
+                    class="tabs__content-img"
+                    src="images/tabs-img/variety.jpg"
+                    alt="Why wine is expensive?"
+                  />
+                  <div class="tabs__content-box">
+                    <h3 class="tabs__content-title">Why wine is expensive?</h3>
+                    <div class="tabs__content-text">
+                      <p>
+                        The high cost of wines is holding back growth, and the
+                        cost is largely due to high taxes, both
+                        <span>import duties(160 per cent) </span>and the myriad
+                        state taxes and regulations that are applied to wines
+                        without considering that wine is a low-alcohol product
+                        which is farmer-friendly and good for health.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="tabs__content-item" id="content-5">
+                  <img
+                    class="tabs__content-img"
+                    src="images/tabs-img/price.jpg"
+                    alt=" How much is a volume of wine?"
+                  />
+                  <div class="tabs__content-box">
+                    <h3 class="tabs__content-title">
+                      How much is a volume of wine?
+                    </h3>
+                    <div class="tabs__content-text">
+                      <p>
+                        In the United States, one "standard" drink (or one
+                        alcoholic drink equivalent) contains roughly 14 grams of
+                        pure alcohol, which is found in: 12 ounces of regular
+                        beer, which is usually about
+                        <span>5% alcohol</span>. 5 ounces of wine, which is
+                        typically about<span> 12% alcohol</span>.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="tabs__content-item" id="content-6">
+                  <img
+                    class="tabs__content-img"
+                    src="images/tabs-img/volume.jpg"
+                    alt="What are producers of wine called?"
+                  />
+                  <div class="tabs__content-box">
+                    <h3 class="tabs__content-title">
+                      What are producers of wine called?
+                    </h3>
+                    <div class="tabs__content-text">
+                      <p>
+                        A winemaker or vintner is a person engaged in
+                        winemaking. They are
+                        <span
+                          >generally employed by wineries or wine
+                          companies</span
+                        >, where their work includes: Cooperating with
+                        viticulturists. Monitoring the maturity of grapes to
+                        ensure their quality and to determine the correct time
+                        for harvest.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section about">
+          <div class="container">
+            <h2 class="about__title">
+              Premium Wines & Spirits has its own capabilities
+            </h2>
+            <p class="about__text">
+              warehouse storage of goods. We independently choose, and deliver
+              wine to our customers.
+            </p>
+            <span class="about__info">We work only</span>
+          </div>
+        </section>
+        <section class="section blog">
+          <div class="container">
+            <h2 class="section-title">Latest blog & articlis</h2>
+            <ul class="blog__list">
+              <li class="blog__item">
+                <article class="blog__box">
+                  <img
+                    class="blog__box-img"
+                    src="images/blog-img/blog1.jpg"
+                    alt="Explore the wine color chart and understand what aspects
+                    of wine affect its color."
+                    height="300"
+                  />
+                  <div class="blog__box-content">
+                    <h3 class="blog__box-title">
+                      Explore the wine color chart and understand what aspects
+                      of wine affect its color.
+                    </h3>
+                    <span class="blog__box-data">12 march 2022</span>
+                    <p class="blog__box-text">
+                      Discover some of the world’s best sparkling wine in the
+                      Italian wine region of Valdobbiadene using Wine Folly’s
+                      Region Guide.
+                    </p>
+                    <a class="blog__box-link" href="blog-page.html"
+                      >read more</a
+                    >
+                  </div>
+                </article>
+              </li>
+              <li class="blog__item">
+                <article class="blog__box">
+                  <img
+                    class="blog__box-img"
+                    src="images/blog-img/blog2.jpg"
+                    alt="Drink Italy! All About Chianti Wine"
+                    height="300"
+                  />
+                  <div class="blog__box-content">
+                    <h3 class="blog__box-title">
+                      Drink Italy! All About Chianti Wine
+                    </h3>
+                    <span class="blog__box-data">12 march 2022</span>
+                    <p class="blog__box-text">
+                      A wine’s color can also help you if you’re interested in
+                      collecting wine. You can use wine color cues to determine
+                      its potential to cellar.
+                    </p>
+                    <a class="blog__box-link" href="blog-page.html"
+                      >read more</a
+                    >
+                  </div>
+                </article>
+              </li>
+              <li class="blog__item">
+                <article class="blog__box">
+                  <img
+                    class="blog__box-img"
+                    src="images/blog-img/blog3.jpg"
+                    alt="The Magic of Moscato d’Asti"
+                    height="300"
+                  />
+                  <div class="blog__box-content">
+                    <h3 class="blog__box-title">The Magic of Moscato d’Asti</h3>
+                    <span class="blog__box-data">12 march 2022</span>
+                    <p class="blog__box-text">
+                      It’s hard not to fall in love with Moscato d’Asti. This
+                      perfumed, sweet Italian white wine has captivated wine
+                      drinkers of all kinds.
+                    </p>
+                    <a class="blog__box-link" href="blog-page.html"
+                      >read more</a
+                    >
+                  </div>
+                </article>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="section">
+          <div class="container"></div>
+        </section>
+      </main>
+      <footer class="footer" id="footer">
+        <div class="container">
+          <ul class="footer__inner">
+            <li class="footer__item">
+              <article class="company">
+                <h4 class="footer-title">Company</h4>
+                <ul class="footer__list">
+                  <li class="company__item">
+                    <a class="company__link" href="#">Shop</a>
+                  </li>
+                  <li class="company__item">
+                    <a class="company__link" href="#">Wine Data</a>
+                  </li>
+                  <li class="company__item">
+                    <a class="company__link" href="#">About Us</a>
+                  </li>
+                  <li class="company__item">
+                    <a class="company__link" href="#">Jobs</a>
+                  </li>
+                  <li class="company__item">
+                    <a class="company__link" href="#">Contact</a>
+                  </li>
+                </ul>
+              </article>
+            </li>
+            <li class="footer__item">
+              <article class="social">
+                <h4 class="footer-title">Social Media</h4>
+                <ul class="footer__list">
+                  <li class="social__item">
+                    <a class="social__link" href="#">Instagram</a>
+                  </li>
+                  <li class="social__item">
+                    <a class="social__link" href="#">Youtube</a>
+                  </li>
+                  <li class="social__item">
+                    <a class="social__link" href="#">Twitter</a>
+                  </li>
+                  <li class="social__item">
+                    <a class="social__link" href="#">Facebook</a>
+                  </li>
+                  <li class="social__item">
+                    <a class="social__link" href="#">LinkedIn</a>
+                  </li>
+                  <li class="social__item">
+                    <a class="social__link" href="#">Pinterest</a>
+                  </li>
+                </ul>
+              </article>
+            </li>
+            <li class="footer__item">
+              <article class="region">
+                <h4 class="footer-title">Region Guides</h4>
+                <ul class="footer__list">
+                  <li class="region__item">
+                    <a class="region__link" href="#">Napa Valley</a>
+                  </li>
+                  <li class="region__item">
+                    <a class="region__link" href="#">Argentina</a>
+                  </li>
+                  <li class="region__item">
+                    <a class="region__link" href="#">Walla Walla</a>
+                  </li>
+                  <li class="region__item">
+                    <a class="region__link" href="#">Sicily</a>
+                  </li>
+                  <li class="region__item">
+                    <a class="region__link" href="#">Margaret River</a>
+                  </li>
+                  <li class="region__item">
+                    <a class="region__link" href="#">Valdobbiadene</a>
+                  </li>
+                  <li class="region__item">
+                    <a class="region__link" href="#">Paso Robles</a>
+                  </li>
+                </ul>
+              </article>
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+    <script src="js/main.min.js"></script>
+  </body>
+</html>
